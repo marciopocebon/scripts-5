@@ -4,6 +4,8 @@
 #    https://ugeek.github.io/script-nextcloud/      #
 #####################################################
 
+$HOME
+
 if [ "$(whoami)" != "root" ]; then
     echo "Run script as ROOT please. (sudo !!)"
     exit
@@ -54,3 +56,6 @@ sudo wget https://download.nextcloud.com/server/releases/nextcloud-12.0.4.zip
 sudo unzip nextcloud-12.0.4.zip
 sudo rm nextcloud-12.0.4.zip
 sudo chown -R www-data:www-data /var/www/html/nextcloud
+
+cd $HOME
+rm install_nextcloud.sh
