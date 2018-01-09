@@ -1,0 +1,3 @@
+* Nexcloud
+[[https://ugeek.github.io/img/post/nextcloud.png]]
+- Instalación :: =sudo wget https://raw.githubusercontent.com/ugeek/scripts/master/install_nextcloud.sh && sudo bash install_nextcloud.sh=
