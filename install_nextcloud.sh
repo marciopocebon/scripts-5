@@ -1,8 +1,8 @@
 #!/bin/bash
 
-###################################
+#####################################################
 #    https://ugeek.github.io/script-nextcloud/      #
-###################################
+#####################################################
 
 if [ "$(whoami)" != "root" ]; then
     echo "Run script as ROOT please. (sudo !!)"
@@ -38,7 +38,7 @@ mysql -u user -p
 
 
 
-## Instalación Nextcloud 12.03
+## Instalación Nextcloud 12.04
 # Instalando sqlite                                                             
 sudo apt install php7.0-sqlite3 -y
 
