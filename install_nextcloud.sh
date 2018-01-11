@@ -27,7 +27,7 @@ mkdir /var/www/html
 chown www-data:www-data /var/www/html
 find /var/www/html -type d -print -exec chmod 775 {} \;
 find /var/www/html -type f -print -exec chmod 664 {} \;
-usermod -aG www-data pi
+usermod -aG www-data angel
 cat > /var/www/html/index.php << "EOF"
 <?php phpinfo(); ?>
 EOF
