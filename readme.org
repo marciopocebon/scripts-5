@@ -1,6 +1,12 @@
 * Nexcloud
 [[https://ugeek.github.io/img/post/nextcloud.png]]
 
-- Instalación. Nexcloud completo. :: =sudo wget https://raw.githubusercontent.com/ugeek/scripts/master/install_nextcloud.sh && sudo bash install_nextcloud.sh=
+- Instalación. Nexcloud completo para Raspberry Pi :: =sudo wget https://raw.githubusercontent.com/ugeek/scripts/master/install_nextcloud.sh && sudo bash install_nextcloud.sh=
+
++ Apache. Este es el servidor web.
++ MySQL/MariaDB. El gestor de base de datos.
++ PHP/Perl/Python. El lenguaje de programación.
 
 - Si tu usuario no es *Pi*, modifícalo en el script  
+
+[[https://www.atareao.es/tutorial/raspberry-pi-primeros-pasos/lamp-raspberry-pi/][Web del script de LAMP del atareao.es]]
